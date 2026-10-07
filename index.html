@@ -8,28 +8,29 @@
 </head>
 <body>
 
-    <div class="container1">
+    <div class="container1" id="home">
 
 
       <div class="dis1">
                    
         <div class="PORT">
          <h1>Portfolio</h1>
-        <p><span class="abc"><i class="fa-solid fa-bars"></i></span></p>
+        <p><label for="menu"><span class="abc"><i class="fa-solid fa-bars"></i></span></label></p>
         </div>
            
           
                 
          <div class="subnav">
     
-                
+            <input type="checkbox" id="menu">
+            
            <nav>
            
-            <b><a class="H">Home</a></b>
-            <b><a>About</a></b>
-            <b><a>Skill</a></b>
-            <b><a>Project</a></b>
-            <b><a>Education</a></b>
+            <b><a href="#home" class="H">Home</a></b>
+            <b><a href="#about"class="A">About</a></b>
+            <b><a href="#skill">Skill</a></b>
+            <b><a href="#project">Project</a></b>
+            <b><a href="#education">Education</a></b>
            </nav>
         
            </div>
@@ -73,7 +74,7 @@
 
 
 
-<div class="container2">
+<div class="container2" id="about">
 
 
 <h4>About</h4>
@@ -117,7 +118,7 @@
 
 
 
-<div class="container3">
+<div class="container3" id="skill">
 
     
 
@@ -209,10 +210,10 @@
 </div><!------------------------C3------------------->
 <!--------------------------------------------------------------------------------------------------------->
 
-<div class="container4">
+<div class="container4" id="project">
    <h1>Project</h1>
     <div class="OB1">
-        <div class="B1">
+        <div class="B1 rect1">
               <img src="Rectangle 1.png" class="R1"/>
                <img src="Rectangle 3738.png"class="R3"/>
               <img src="Union1.png" class="U1"/>
@@ -231,14 +232,14 @@
 
 
      <div class="OB1">
-        <div class="B1">
+        <div class="B1 rect2">
            <img src="Rectangle 1.png" class="R1"/>
                <img src="Rectangle 3741.png"class="R3"/>
               <img src="Union2.png" class="U1"/>
               <img src="Rectangle 2.png" class="R2"/>
         </div>
 
-        <div class="B2">
+        <div class="B2 rect4">
            <h2>Project:Name</h2>
            <p>A profile picture is the image that represents a social media account in all its interactions across a platform.sell A profile picture is the image that represents a social media account in all its interactions across a platform.</p>
            <button> <i class="fa-solid fa-link"></i>  http/hello</button>
@@ -250,14 +251,14 @@
 
 
      <div class="OB1">
-        <div class="B1">
+        <div class="B1 rect3">
              <img src="Rectangle 1.png" class="R1"/>
                <img src="Rectangle 3744.png"class="R3"/>
               <img src="Union3.png" class="U1"/>
               <img src="Rectangle 2.png" class="R2"/>
         </div>
 
-        <div class="B2">
+        <div class="B2 rect5">
            <h2>Project:Name</h2>
            <p>A profile picture is the image that represents a social media account in all its interactions across a platform.sell A profile picture is the image that represents a social media account in all its interactions across a platform.</p>
            <button> <i class="fa-solid fa-link"></i>  http/hello</button>
@@ -271,7 +272,7 @@
 
 
 
-<div class="container5">
+<div class="container5" id="education">
 
      <h1>Education</h1>
 
@@ -349,11 +350,16 @@
 
                 <div class="cd">
                     <h2> Contact </h2>
-                    <h4> jananieshwar2005@gmail.com </h4>
-                    <h4> +7871507375 </h4>
+                    <h4>rkowsi@gmail.com</h4>
+                    <h4> +7871508569 </h4>
                     <h4> 77 chennai velachery </h4>
                     <h4> vijanagar bustand </h4>
                 </div>
+                 <a href="#home">
+                <button class="top-btn" id="home">
+                <i class="fa-solid fa-angle-up"></i>
+            </button>
+            </a>
 
             </div><!------------dis5--------->
         </div><!------------c6------------------->
@@ -400,9 +406,11 @@
         
             </div>
         
-            <button class="top-btn">
+            <a href="#home">
+                <button class="top-btn" id="home">
                 <i class="fa-solid fa-angle-up"></i>
             </button>
+            </a>
         
         </div>
 
